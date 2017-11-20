@@ -1,7 +1,7 @@
 module.exports = {
   entry: './src/index.js',
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -11,15 +11,15 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['env', 'react', 'flow']
-          }
-        }
+            presets: ['env', 'react', 'flow'],
+          },
+        },
       },
       {
         test: /\.css$/,
-        use: [ 'style-loader', 'css-loader' ]
+        use: ['style-loader', 'css-loader'],
       },
-    ]
+    ],
   },
-};
+}
 
