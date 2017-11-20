@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-preset-stage-0": "^6.24.1",
     "lodash": "^4.17.4",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -57,5 +58,8 @@
   },
   "author": "Sacha Morgese",
   "license": "ISC",
-  "eslintIgnore": ["src/css/", "src/img"]
+  "eslintIgnore": [
+    "src/css/",
+    "src/img"
+  ]
 }
