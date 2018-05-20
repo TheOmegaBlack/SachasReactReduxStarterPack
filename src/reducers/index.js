@@ -3,7 +3,7 @@ import { combineReducers } from 'redux'
 // Function used to combine multiple reducers
 const rootReducer = combineReducers({
   // dummy: dummy in ES6
-  dummy
+  dummy,
 })
 
 // Dummy reducer just to make sure the app works
